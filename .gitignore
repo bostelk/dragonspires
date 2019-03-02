@@ -2,10 +2,12 @@
 *
 !*/
 
+!*.gitignore
+!*.gitattributes
+
 !*.java
 !*.txt
 !*.md
-!*.gitignore
 
 # build files
 !*.bat
