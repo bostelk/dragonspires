@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.2
+mainClassName = 'DSMapView'
+
+dependencies {
+    implementation project(':client')
+}
+
+distributions {
+    main {
+        contents {
+        }
+    }
+}

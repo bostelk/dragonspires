@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.2
+mainClassName = 'DSpiresServer'
+
+task buildConf(type:Copy) {
+    def conf = file("$buildDir/conf")
+    outputs.dir conf
+    from 'conf' into conf
+}
+
+task buildMaps(type:Copy) {
+    def maps = file("$buildDir/maps")
+    outputs.dir maps
+    from 'maps' into maps
+}
+
+task buildLog(type:Copy) {
+    def log = file("$buildDir/log")
+    outputs.dir log
+    from 'log' into log
+}
+
+task buildPlayers(type:Copy) {
+    def players = file("$buildDir/players")
+    outputs.dir players
+    from 'players' into players
+}
+
+distributions {
+    main {
+        contents {
+            from(buildConf) {
+                into 'conf'
+            }
+            from(buildMaps) {
+                into 'maps'
+            }
+            from(buildLog) {
+                into 'log'
+            }
+            from(buildPlayers) {
+                into 'players'
+            }
+        }
+    }
+}

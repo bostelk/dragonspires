@@ -1,0 +1,191 @@
+* DragonSpires Login
+Enter your name and password.
+* Character Creation
+Choose your colors and enter your description.
+You need to enter a description.
+Welcome to DragonSpires!  * Press Ctrl-Z for help. *
+* Loading map. Please wait. *
+* This is a safe map; if you -brb here you won't be hurt by enemies.
+You enter the bright and bustling surroundings of DragonSpires' main town.
+Current players: Mech, Nnael.
+Total players: 2
+Mech spreads the love of DragonSpires!
+Mech heals Mech!
+Mech: @admin
+Another dog: Rrrr. Arf!.
+A dog: Ruff! Rowf!
+Another dog: Bark!
+Another dog: Bark!
+A dog: Rrrr. Arf!.
+Another dog: Bark!
+           ,   ,
+           $,  $,     ,
+           "ss.$ss. .s'
+   ,     .ss$$$$$$$$$$s,
+   $. s$$$$$$$$$$$$$$`$$Ss
+   "$$$$$$$$$$$$$$$$$$o$$$       ,
+  s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s
+ s$$$$$$$$$"$$$$$$""""$$$$$$"$$$$$,
+ s$$$$$$$$$$s""$$$$ssssss"$$$$$$$$"
+s$$$$$$$$$$'         `"""ss"$"$s""
+s$$$$$$$$$$,              `"""""$ 
+s$$$$$$$$$$$$s,...               `
+A dog: Meow?
+Another dog: Bark!
+~ Nnael whispers, "lol" to you.
+Another dog: Rrrr. Arf!.
+~ Nnael whispers, "the OG admin" to you.
+[I] * If you get stuck in a corner when you're the leader of a group use the '-transpose' command to get out of the mess!
+A dog: Ruff! Rowf!
+Another dog: Rrrr. Arf!.
+Another dog: Bark!
+A dog: Meow?
+Another dog: Rrrr. Arf!.
+Mech: @cords
+You see Nnael the newbie.
+:o
+Flags: [Neutral] [PK:N/A]
+E-Mail: Unspecified
+Web site: Unspecified
+Mech spreads the love of DragonSpires!
+Mech heals Mech!
+Mech heals Nnael!
+(*)-(*) It's the DragonSpires Parade! (*)-(*)
+(*)-(*) Type '-goparade' within the next 30 seconds to join in!
+Another dog: Bark!
+A dog: Meow?
+Another dog: Bark!
+A dog: Ruff! Rowf!
+You whisper, "lol!" to Nnael.
+Another dog: Bark!
+~ Nnael whispers, "dick!" to you.
+A dog: Meow?
+Bad item.
+~ Nnael whispers, "parade is gonna start!" to you.
+~ Nnael whispers, "let me ouuuuttt" to you.
+You whisper, "uuuhm" to Nnael.
+A dog: Meow?
+~ Nnael whispers, "bail is 1000gold hahaha" to you.
+* You've been thrown in jail for being a bad monkey.
+* Loading map. Please wait. *
+You enter the damp and lonely jail. Hopefully you're not a prisoner here.
+There's nowhere to shop here!
+Mech: i'll give u gold
+The Warden: Bail is 1000 gold. Just walk up to your cell door and '-dropgold 1000'.
+Nnael: lol
+The Warden: Bail is 1000 gold. Just walk up to your cell door and '-dropgold 1000'.
+Mech spreads the death of DragonSpires!
+Mech kills Nnael!
+[I] * Go to a laptop and type '-laptop:help', you could have fun with this on your map.
+~ Nnael whispers, "how does the code look like?" to you.
+~ Nnael whispers, "did you have a look?" to you.
+The Warden: What did you do THIS time?
+You settle down and begin resting.
+You stand, feeling more rested.
+You whisper, "code is ok" to Nnael.
+The Warden: Man you stink..
+* Loading map. Please wait. *
+* This is a safe map; if you -brb here you won't be hurt by enemies.
+You enter the bright and bustling surroundings of DragonSpires' main town.
+~ Nnael whispers, "i remember thinking he must have been so smart" to you.
+You see a flatty.
+The sign reads: Road closed by order of King Gambino.
+Nnael: lol
+You whisper, "oh for sure" to Nnael.
+The sign reads: Arena Spectator Entrance. *~*~ Help! I'm being held captive in a Sign-Printing Shoppe!.
+(*)-(*) It's the DragonSpires Parade! (*)-(*)
+(*)-(*) Type '-goparade' within the next 30 seconds to join in!
+* Loading map. Please wait. *
+* This is a safe map; if you -brb here you won't be hurt by enemies.
+You enter the bright and bustling surroundings of DragonSpires' main town.
+Mech: hmm
+Bad item.
+Bad item.
+A dog: Meow?
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+[I] * Crossbows/Bows automatically reload now. Go buy one. Heh.
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+Nnael: rando spawning?
+You step in poo! It's stuck to your shoe! What the heck are you going to do?
+Mech: ye
+Nnael: keep going
+Nnael: lol
+Mech spreads the death of DragonSpires!
+Nnael: i want a scroll
+Mech: wish i knew how to destroy this dragon
+Mech: @illusion
+Mech: @reset
+Mech: @info
+Mech spreads the death of DragonSpires!
+Mech kills Nnael!
+Mech: oops
+A dog: Meow?
+You feel a shift in the fiber of reality. The sky becomes dark with clouds, the Sun becomes tinged red. Birds nearby stop singing and scatter in every direction. Nezerath has returned from the mountains of DragonSpires and is attacking!
+A dog: Meow?
+A dog: Meow?
+A Warlock dodges Mech's pathetic attack! (0)
+Mech dodges A Warlock's pathetic attack! (0)
+While dodging, A Warlock slips and falls! (1)
+A Warlock zaps Mech! (2)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock zaps Mech! (3)
+While dodging, A Warlock slips and falls! (1)
+A Warlock zaps Mech! (1)
+A Warlock dodges Mech's pathetic attack! (0)
+Mech dodges A Warlock's pathetic attack! (0)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock dodges Mech's pathetic attack! (0)
+Mech dodges A Warlock's pathetic attack! (0)
+A Warlock zaps Mech! (3)
+A Warlock dodges Mech's pathetic attack! (0)
+A Glob dodges Mech's pathetic attack! (0)
+A Glob did slime Mech! (2)
+A Glob dodges Mech's pathetic attack! (0)
+A Glob did slime Mech! (2)
+A Glob dodges Mech's pathetic attack! (0)
+A Glob did slime Mech! (3)
+While dodging, A Glob slips and falls! (1)
+A Glob did slime Mech! (2)
+While dodging, A Glob slips and falls! (1)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock zaps Mech! (1)
+While dodging, A Warlock slips and falls! (1)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock did slay Mech!
+You've been killed!
+A Warlock dodges Mech's pathetic attack! (0)
+While dodging, A Warlock slips and falls! (1)
+Mech dodges A Warlock's pathetic attack! (0)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock zaps Mech! (1)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock zaps Mech! (2)
+A Warlock dodges Mech's pathetic attack! (0)
+A Warlock zaps Mech! (1)
+While dodging, A Warlock slips and falls! (1)
+A Warlock zaps Mech! (1)
+A Warlock zaps Mech! (1)
+A Warlock dodges Mech's pathetic attack! (0)
+While dodging, A Warlock slips and falls! (1)
+You gain 3 alignment points.
+Mech did slay A Warlock!
+While dodging, A Glob slips and falls! (1)
+A Glob did slime Mech! (2)
+While dodging, A Glob slips and falls! (1)
+A Glob did slime Mech! (1)
+A Glob dodges Mech's pathetic attack! (0)
+A Glob did slime Mech! (3)
+A Glob dodges Mech's pathetic attack! (0)
+A Glob did slime Mech! (2)
+While dodging, A Glob slips and falls! (1)
+You gain 1 alignment points.
+Mech did slay A Glob!
+Mech: haha
+A dog: Rrrr. Arf!.
+Mech: okay, i'm off for a bit i think
+Mech: ttyl
+Nnael: ttyl
+* Lost connection to DragonSpires.

@@ -1,0 +1,122 @@
+Welcome to DragonSpires!
+Here's some help on how to play.
+If you still have questions try
+going to the DragonSpires web page
+(http://stuff2do.systs.net/dspire)
+and reading the FAQ.
+
+-++Commands++-
+
+Talking
+-------
+Type to talk.
+:<message> to pose an action.
+/<name> <message> to whisper.
+Type / a series of times to scroll through your whisper reply buffer.
+Type: -ignore <name> to ignore someone.
+-ignore off to turn off ignores.
+
+Moving
+------
+Arrow keys or Home-End-PgUp-PgDn or mouse clicks on map to move.
+Ins and Del or mouse clicks on map to turn in place.
+Tab key to swing sword.
+
+Personal
+--------
+-myemail is the same as -mysite but for e-mail.
+-mypkstats to view your player kill stats.
+-mysite to set your web site URL for people to see when they look at you.
+-stats to view your character stats.
+
+Information
+-----------
+-adminlist to see a list of people to ask for help.
+-mapwho to see who's on an uploaded map.
+-ping to test your connection to the server.
+-pkstats to view someone else's PK stats.
+-snaptext to bring up a "snapshot" of the most recent text.
+-uptime shows how long the server has been up.
+
+More Commands
+-------------
+-attacks to toggle whether you see attacks that don't involve you.
+-brb to to signal that you will be right back.
+-cls to clear the chat window.
+-destroyitem or -di to destroy the item in your hands.
+-dig to dig.
+-dropgold <amount> to drop gold.
+-exitmap to leave an player's map.
+-give to give someone the item in your hands.
+-gg <amount> to give gold when facing someone.
+-shove to shove an NPC out of your way.
+-snaptext to take a "snapshot" of recent text.
+-tradeforgold to trade items for gold safely.
+-weight to check your inventory weight.
+Shift + up and down arrows scroll text.
+
+Even More Commands
+------------------
+Ctrl-A/-arm to equip armour.
+Ctrl-C/-compass to toggle compass.
+Ctrl-C/-swp to swap an item in/out of your inventory.
+Ctrl-E/-pedit to open the portrait editor.
+Ctrl-G/-get to get/drop.
+Ctrl-L/-look to look at things.
+Ctrl-M/-map to upload a map.
+Ctrl-P/-who lists players.
+Ctrl-R/-rest to start/stop resting.
+Ctrl-S/-shop to shop.
+Ctrl-T/-throw to throw item in hands.
+Ctrl-U/-use to use held item.
+Ctrl-V/-inv to show inventory.
+Ctrl-W/-wep to equip weapons.
+Ctrl-X to clear input box.
+Ctrl-Q/-quit to quit.
+
+
+-++Groups++-
+
+-nogroup to allow/not allow people to group with you.
+-join to join a group.
+-kick <name> to kick someone out of your group.
+-disband to disband your group.
+-gsay to talk to your group.
+-glist to list members of the group.
+To leave a group simply walk away.
+
+
+-++Channels++-
+
+Channels are different methods of communicating
+with other people. They deal with certain subjects.
+To see what channels and subjects are available
+type "-channels".
+[<channel letter> <message> to talk on a channel.
+Example: [q Hi.
+[<channel letter> to turn on/off a channel.
+To see which of the channels you are on and off
+for you type "-mychannels".
+It is against the rules to use a channel for anything
+other than what its for or to use a certain channel for
+talking about a subject that there already is a channel
+for, such as talking about combat on the shout channel.
+
+-++Map Uploads++--
+
+In DragonSpires you can upload maps to the game server
+that other people can play and interact on. When you
+upload a map you become the owner of it. Here are
+some special commands that map owners can use on
+their maps:
+-lock to allow/disallow people from entering the map.
+-destroymap to destroy the current map so you can upload another.
+-boot <name> to boot a person out of your map.
+-place # to place an allowed item on your map.
+-echo <text> to send a message to your entire map.
+-echoc # <text> to send a message to your entire map with a specified color(#).
+-echos <text> to send a message to only people you can see.
+-echosc # <text> to send a message to only people you can see with a specified color(#).
+-goto <name> to transport yourself to a person in your map.
+For info on map making, go to:
+http://stuff2do.systs.net/dspire/editor

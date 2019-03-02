@@ -1,0 +1,23 @@
+Java DragonSpires Client Changelog
+
+Release: 2004-10-31
+====================
+
+Created changelog.
+
+KnightFilter3.java:
+  o Change to and note of 'DataBuffer.TYPE_USHORT'.
+  
+DragonSpiresPanel.java:
+DSPing.java:
+  o Made server hostname variables String[] instead of
+    char[][] to make things easier for people.
+    
+KnightFilter2.java:
+  o Included in release.
+
+
+Release: 2004-10-27
+====================
+
+Orignal source code release.

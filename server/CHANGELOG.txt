@@ -1,0 +1,23 @@
+Java DragonSpires Server Changelog
+
+Release: 2004-10-31
+====================
+
+Created changelog.
+
+DSpiresServer.java
+  o Removed my old e-mail.
+  o Ensured DSMapServer 'parent' assignment.
+  o Indicated where to uncomment when using "accessory" files.
+  o Made "blank.dsmap" the default map.
+  o Changed ad code to use "banners.txt" instead of ".mech/mo".
+  o Edited NPC2 static var 'server' assignment.
+  
+DSPingServer.java
+DSQueryServer.java
+  o Changed default host to 'localhost'.
+
+Release: 2004-10-27
+====================
+
+Original source code release.

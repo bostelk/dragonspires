@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.2
+mainClassName = 'DragonSpiresFrame'
+
+
+distributions {
+    main {
+        contents {
+        }
+    }
+}
