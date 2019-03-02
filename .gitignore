@@ -1,0 +1,30 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+!*.java
+!*.txt
+!*.md
+!*.gitignore
+
+# build files
+!*.bat
+!*.gradle
+!*.jar
+!*.properties
+.gradle
+
+# dragonspires' files
+!*.conf
+!*.domain
+!*.name
+!*.random
+!*.mo
+!*.nice
+!*.ini
+!*.dsmap
+!*.log
+!*.gif
+!*.au
+
+*/build
