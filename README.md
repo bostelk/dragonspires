@@ -1,6 +1,6 @@
 dragonspires
 ============
-dragonspires is an old online game from the 90s to early 2000s. This repository is a fork of the [original project](https://sourceforge.net/projects/jdspire/) with minor changes so that it builds and runs.
+[dragonspires](http://jdspire.sourceforge.net/) is an old online game from the 90s to early 2000s. This repository is a fork of the [original project](https://sourceforge.net/projects/jdspire/) with minor changes so that it builds and runs.
 
 Getting Started
 ===============
