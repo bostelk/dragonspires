@@ -121,7 +121,7 @@ public class DSpiresServer extends Thread {
 
 		try {
 			startServer();
-			server = new ServerSocket(PORT,1);//,InetAddress.getByName("stuff2do"));
+			server = new ServerSocket(PORT,1);
 
 			while (true) {
 				client = server.accept();
@@ -247,10 +247,10 @@ public class DSpiresServer extends Thread {
 		DSMapServer.parent=this;
 		
 		//not old stuff (comment this next line if using "accessories"
-		maps[0] = new DSMapServer("blank",0);
+		//maps[0] = new DSMapServer("blank",0);
 		//old stuff
 		// ** Uncomment ** IF using "accessories"
-		/*maps = new DSMapServer[50];
+		maps = new DSMapServer[50];
 		maps[0] = new Lev01(this);
 		maps[1] = new Lev02();
 		maps[2] = new Lev03();
@@ -300,7 +300,7 @@ public class DSpiresServer extends Thread {
 		maps[46] = new DSMapServer("lev47",46);
 		maps[47] = new DSMapServer("lev48",47);
 		maps[48] = new DSMapServer("lev49",48);
-		maps[49] = new DSMapServer("lev50",49);*/
+		maps[49] = new DSMapServer("lev50",49);
 
 		for (int i=0;i<maps.length;i++) {
 			if (maps[i] instanceof MainMapWithCode)

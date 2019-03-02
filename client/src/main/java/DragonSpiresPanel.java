@@ -55,6 +55,8 @@ import java.awt.Frame;
 import java.awt.Rectangle;
 
 import java.awt.image.*;
+import javax.imageio.ImageIO;
+
 
 //import java.applet.*;
 
@@ -78,7 +80,7 @@ import java.util.StringTokenizer;
 public class DragonSpiresPanel extends Panel implements Runnable {
 
 	final char version[] = {'V','0','0','2','6'};
-	private final static String[] habl = {"localhost"};
+	private final static String[] habl = {"ds-west.bostelk.ca","localhost"};
 
 	final static String itemnames[]= {"nothing","some paper",
                                                                 "light armor",
@@ -582,10 +584,9 @@ public class DragonSpiresPanel extends Panel implements Runnable {
 	}
 
 	public void run() {
-		connstat = "Trying to connect...";
+		connstat = "Trying to connect..." + habl[server];
 		repaint(43,325,219,27);
 		try {
-
 			s = new Socket(habl[server], 7734);
 			try {
 				s.setSoLinger(true,0);
@@ -1097,21 +1098,39 @@ public class DragonSpiresPanel extends Panel implements Runnable {
 	public InputStream dsOpenFile(String name) {
 		//if (name.equals("download.dsmap"))
 		//	return i;
-		try {
-			if (amapplet)
-				return (dsGetCodeBase(name).openStream());
-			else
-				return (new FileInputStream(name));
-		}
-		catch (Exception e) {}
-		return null;
+        InputStream stream = null;
+        try {
+            if (amapplet) {
+                stream = (dsGetCodeBase(name).openStream());
+            } else
+            {
+                stream = (new FileInputStream(name));
+            }
+        } catch (Exception e) { }
+        if (stream == null)
+        {
+            try {
+                ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+                stream = classloader.getResourceAsStream(name);
+            } catch (Exception e) { }
+        }
+		return stream;
 	}
 
 	public Image dsGetImage(String name) {
+        Image image = null;
 		if (amapplet)
-			return (toolkit.getImage(dsGetCodeBase(name)));
+			image = (toolkit.getImage(dsGetCodeBase(name)));
 		else
-			return (toolkit.getImage(name));
+            image = null;
+			//image = (toolkit.getImage(name)); fails to load.
+        if (image == null)
+        {
+            try {
+                image = ImageIO.read(getClass().getResource(name));
+            } catch (Exception e) { e.printStackTrace(); }
+        }
+        return image;
 	}
 
 	public URL dsGetCodeBase(String file) {

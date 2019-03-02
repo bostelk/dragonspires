@@ -49,8 +49,10 @@ public class DragonSpiresConsole extends Panel {
 	boolean applet=false;
 	Choice server;
 	Color ff=new Color(179,207,235);
-	private final static char habl[][] = {{'s','t','u','f','f','2','d','o','.','s','y','s','t','s','.','n','e','t'},
-	{'m','e','c','h','a','n','i','x','x','.','d','y','n','d','n','s','.','o','r','g'}};
+	private final static char habl[][] = {
+	    {'d','s','-','w','e','s','t','.','b','o','s','t','e','l','k','.','c','a'},
+	    {'1','2','7','.','0','.','0','.','1'}
+    };
 
 	public DragonSpiresConsole(Object p, int smallfont) {
 		parent=p;
@@ -97,8 +99,8 @@ public class DragonSpiresConsole extends Panel {
 			btnNew.resize(157,20);
 
 			server=new Choice();
-			server.addItem("Texas (main)");
-			server.addItem("Washington");
+			server.addItem("US West (main)");
+			server.addItem("Localhost (test)");
 			server.resize(100,20);
 			server.move(75,70);
 			server.setFont(sf);
@@ -170,7 +172,7 @@ class DSQueryFrame extends Frame {
 		super("DS Server Query ("+count+")");
 		closeit = new Button("Close");
 
-		message = new TextArea("Querying server...\n\n");
+		message = new TextArea("Querying server... '"+server+"'\n\n");
 
 		add("South",closeit);
 		add("Center",message);

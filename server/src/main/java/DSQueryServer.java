@@ -55,7 +55,7 @@ public class DSQueryServer extends Thread {
 
 		for (int count=0;count<100;count++) {
 			try {
-				server=new ServerSocket(7736,0,InetAddress.getByName("localhost"));
+				server=new ServerSocket(7736,0);
 				while (true) {
 					client = server.accept();
 					o = new PrintWriter(new BufferedOutputStream(client.getOutputStream()));

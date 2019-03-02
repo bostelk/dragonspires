@@ -68,7 +68,7 @@ public class DSMapCanvas extends Canvas {
 	private byte[][] tilemap,playermap;
 	short[][] spellmap;
 	int [][] shopitems;
-	/*final byte colorpal[][] = {{0,0,55},{0,0,(byte)175},{75,(byte)127,43},{83,83,119},
+	final byte colorpal[][] = {{0,0,55},{0,0,(byte)175},{75,(byte)127,43},{83,83,119},
 			{(byte)175,0,0},
 			{(byte)147,0,(byte)147},
 			{(byte)203,(byte)147,79},
@@ -81,7 +81,6 @@ public class DSMapCanvas extends Canvas {
 			{(byte)231,(byte)219,(byte)79},
 			{(byte)255,(byte)239,(byte)235}};
 
-*/
 	final short enecoords[] = {
 1,1,23,17,
 25,1,23,17,
@@ -1036,6 +1035,11 @@ public class DSMapCanvas extends Canvas {
 			if (ichar[3] != ' ') {
 				x=ichar[1]-32;
 				y=ichar[2]-32;
+                // Note(kbostelmann): Clamp to map boundaries.
+                if (y>=mheight) y = mheight-1;
+                if (y<0) y = 0;
+                if (x>=mwidth) x = mwidth-1;
+                if (x<0) x = 0;
 				playermap[x][y] = (byte)(ichar[3]-32);
 				colorstrings[x][y] = tcs;
 
@@ -1092,17 +1096,26 @@ public class DSMapCanvas extends Canvas {
 		if (incoming.length() == 9) {
 			x2=incoming.charAt(5)-32;
 			y2=incoming.charAt(6)-32;
-			itemmap[x2][y2] = (short)decode(incoming.charAt(7)-32,incoming.charAt(8)-32);
+            if (x2 > 0 && x2 < mwidth) {
+                if (y2 > 0 && y2 < mheight) {
+                    itemmap[x2][y2] = (short)decode(incoming.charAt(7)-32,incoming.charAt(8)-32);
+                }
+            }
 		}
 		x1=incoming.charAt(1)-32;
 		y1=incoming.charAt(2)-32;
-		itemmap[x1][y1] = (short)decode(incoming.charAt(3)-32,incoming.charAt(4)-32);
-		if (parent.dsPinR(x1,y1)) {
-			if (incoming.length()==9)
-				drawDoubleDirty(xpos,ypos,x1,y1,x2,y2);
-			else
-				drawDirty(x1,y1);
-		}
+
+        if (x1 > 0 && x1 < mwidth) {
+            if (y1 > 0 && y1 < mheight) {
+                itemmap[x1][y1] = (short)decode(incoming.charAt(3)-32,incoming.charAt(4)-32);
+                if (parent.dsPinR(x1,y1)) {
+                    if (incoming.length()==9)
+                        drawDoubleDirty(xpos,ypos,x1,y1,x2,y2);
+                    else
+                        drawDirty(x1,y1);
+                }
+            }
+        }
 	}
 	public void cacheCleanup() {
 		int xs = xpos-3;
